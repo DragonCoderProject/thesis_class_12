@@ -11,7 +11,7 @@ navigation requires Qt 5.12.0
 
 download the repository and get started
 
-$ git clone https://github.com/paulkoehler/navigation.git
+$ git clone https://github.com/DragonCoderProject/thesis_class_12
 $ cd navigation/python
 $ python3 full_installation.py
 
