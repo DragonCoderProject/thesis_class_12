@@ -4,7 +4,6 @@ import QtLocation 5.12
 import QtPositioning 5.12
 import QtQuick.Dialogs 1.3
 import SqlQueryModel 1.0
-import SerialPort 1.0
 
 ApplicationWindow {
     id: app_window
@@ -12,10 +11,6 @@ ApplicationWindow {
     width: 900 //Breite des Fensters
     height: 800 //Höhe des Fensters
     title: qsTr("Navigation") //Titel
-
-    SerialPort {
-        id:serialPort
-    }
 
     SqlQueryModel{
         id: querymodel
