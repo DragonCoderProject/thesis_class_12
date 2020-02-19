@@ -1,5 +1,4 @@
 #include "sqlquerymodel.h"
-#include "serialport.h"
 
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
@@ -38,7 +37,6 @@ int main(int argc, char *argv[])
     //Das Attribut AA_EnableHighDpiScaling ist verantwortlich für Scale in große Auflösung
     qmlRegisterType<SqlQueryModel>("SqlQueryModel", 1, 0, "SqlQueryModel"); //Erstellung des SqlQueryModel
                                                                             //für Nutzung in qml Dateien
-    qmlRegisterType<serialPort>("SerialPort", 1, 0, "SerialPort");
 
     QGuiApplication app(argc, argv); //Ertsellt das QGuiApplication Objekt;
 
